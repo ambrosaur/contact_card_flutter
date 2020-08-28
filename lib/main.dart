@@ -20,16 +20,21 @@ class MyApp extends StatelessWidget {
             Text(
               'Reggie Andes',
               style: TextStyle(
-                color: Colors.white,
+                fontFamily: 'RobotoCondensed',
+                fontSize: 30.0,
+                color: Colors.teal[50],
                 fontWeight: FontWeight.bold,
+                letterSpacing: 0.8,
               ),
             ),
             Text(
               'SOFTWARE DEVELOPER',
               style: TextStyle(
-                color: Colors.white,
+                fontFamily: 'OpenSansCondensed',
+                fontSize: 15.0,
+                color: Colors.teal[100],
               ),
-            )
+            ),
           ],
         ),
       ),
