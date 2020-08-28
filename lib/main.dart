@@ -35,6 +35,12 @@ class MyApp extends StatelessWidget {
                 color: Colors.teal[100],
               ),
             ),
+            Container(
+              color: Colors.white,
+              child: Row(
+                children: <Widget>[],
+              ),
+            ),
           ],
         ),
       ),
