@@ -1,14 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(
-    MaterialApp(
-      home: Scaffold(
-        backgroundColor: Colors.teal,
-        body: Container(),
-      ),
-    ),
-  );
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -19,7 +12,25 @@ class MyApp extends StatelessWidget {
       backgroundColor: Colors.blueGrey,
       body: SafeArea(
         child: Column(
-          children: <Widget>[],
+          children: <Widget>[
+            CircleAvatar(
+              radius: 50.0,
+              backgroundColor: Colors.blue,
+            ),
+            Text(
+              'Reggie Andes',
+              style: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            Text(
+              'SOFTWARE DEVELOPER',
+              style: TextStyle(
+                color: Colors.white,
+              ),
+            )
+          ],
         ),
       ),
     ));
