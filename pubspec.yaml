@@ -23,3 +23,17 @@ flutter:
 
   assets:
     - images/reggie.png
+
+  fonts:
+    - family: RobotoCondensed
+      fonts:
+        - asset: fonts/RobotoCondensed-Regular.ttf
+        - asset: fonts/RobotoCondensed-Italic.ttf
+        - asset: fonts/RobotoCondensed-Bold.ttf
+        - asset: fonts/RobotoCondensed-BoldItalic.ttf
+
+    - family: OpenSansCondensed
+      fonts:
+        - asset: fonts/OpenSansCondensed-Light.ttf
+        - asset: fonts/OpenSansCondensed-Bold.ttf
+        - asset: fonts/OpenSansCondensed-LightItalic.ttf
