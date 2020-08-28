@@ -36,17 +36,25 @@ class MyApp extends StatelessWidget {
               ),
             ),
             Container(
+              padding: EdgeInsets.all(10.0),
               color: Colors.white,
+              margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
               child: Row(
                 children: <Widget>[
                   Icon(
                     Icons.phone,
-                    color: Colors.blue,
+                    color: Colors.blueGrey[600],
+                    size: 25.0,
+                  ),
+                  SizedBox(
+                    width: 15.0,
                   ),
                   Text(
                     '+1 (281) 818 8737',
                     style: TextStyle(
-                      color: Colors.blue,
+                      color: Colors.blueGrey[600],
+                      fontFamily: 'RobotoCondensed',
+                      fontSize: 16.0,
                     ),
                   ),
                 ],
